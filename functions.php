@@ -67,7 +67,7 @@
 function additional_scripts() {
 		wp_enqueue_script(
 				'init',
-				CHILD_TEMPLATE_URL . '/js/init.js',
+				CHILD_TEMPLATE_URL . '/assets/js/init.js',
 				array('jquery')
 		);
 }
